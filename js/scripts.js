@@ -13,6 +13,8 @@ $(document).ready(function(){
         } else if(delivery === "yes") {
             var deliveryAdress = prompt("Please enter delivery address in this order(street name-town name-county name")
             alert("You have ordered " + pizzaAmount + " pizza(s). Total price is " + newTotal + ". Your pizza will be delivered to " + deliveryAdress)
+        } else {
+            alert("You have ordered " + pizzaAmount + " pizza(s). Total price is " + total)
         }
     })
 })
