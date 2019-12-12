@@ -1,7 +1,6 @@
 .pizzas {
-    margin: 50px;
-    padding: 100px;
     text-align: center;
+    background-color: orange;
 }
 .offered {
     text-align: center;
@@ -9,4 +8,16 @@
 h2, h1 {
     font-style: italic;
     color: red;
+}
+body {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+#crust, #size, #topping {
+    width: 100%;
+}
+img {
+    height: 200px;
+    width: 300px;
+    margin: 20px;
 }
