@@ -1,0 +1,12 @@
+.pizzas {
+    margin: 50px;
+    padding: 100px;
+    text-align: center;
+}
+.offered {
+    text-align: center;
+}
+h2, h1 {
+    font-style: italic;
+    color: red;
+}
