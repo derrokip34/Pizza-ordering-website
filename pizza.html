@@ -73,6 +73,7 @@
             </div>
         </div><br><br><br>
         <div class="order-section">
+            <h2>PLACE YOUR ORDER BELOW</h2>
             <div class="row">
                 <div class="col-md-4">
                     <select id="size">
@@ -84,14 +85,16 @@
                 </div>
                 <div class="col-md-4">
                     <select id="crust">
-                        <option value="thin-crust">Thin crust</option>
-                        <option value="deep-dish">Deep dish</option>
+                        <option value="">Choose crust</option>
+                        <option value="400">Thin crust</option>
+                        <option value="deep">Deep dish</option>
                         <option value="cheese">Cheese</option>
                         <option value="crispy">Crispy</option>
                     </select>
                 </div>
                 <div class="col-md-4">
                     <select id="topping">
+                        <option value="">Choose topping</option>
                         <option value="pepperoni">Pepperoni</option>
                         <option value="mushroom">Mushroom</option>
                         <option value="sausage">Sausage</option>
@@ -99,7 +102,15 @@
                     </select>
                 </div>
             </div>
+            Number of pizzas:
+            <input type="number"><br><br>
+            <label>Do you want it to be delivered?</label><br>
+            <input type="radio" id="delivery" checked>Yes<br>
+            <input type="radio" id="delivery">No<br><br>
+            <button id="confirm">Complete order</button>
         </div>
         </div>
+        <script src="js/scripts.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     </body>
 </html>
