@@ -21,3 +21,10 @@ img {
     width: 300px;
     margin: 20px;
 }
+.order-section {
+    text-align: center;
+}
+#delivery {
+    width: 20%;
+    text-align: center;
+}
