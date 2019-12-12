@@ -6,6 +6,7 @@
         <title>Pizza Ordering Website</title>
     </head>
     <body>
+        <div class="container">
         <div class="jumbotron">
             <div class="row">
                 <div class="col-md-4">
@@ -45,8 +46,8 @@
                         <li>Black olives</li>
                 </div>
             </div>
-        </div>
-        <div class="pizzas">
+        </div><br><br>
+        <div class="pizzas"><br><br>
             <h2 class="pizzas-offered">HERE ARE SOME PIZZAS WE OFFER</h2>
             <div class="row">
                 <div class="col-md-4">
@@ -58,10 +59,47 @@
                 <div class="col-md-4">
                     <img src="images/type3.jpg">
                 </div>
+            </div><br><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/type4.jpg">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/type5.jpg">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/type6.jpg">
+                </div>
+            </div>
+        </div><br><br><br>
+        <div class="order-section">
+            <div class="row">
+                <div class="col-md-4">
+                    <select id="size">
+                        <option value="">Choose size</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <select id="crust">
+                        <option value="thin-crust">Thin crust</option>
+                        <option value="deep-dish">Deep dish</option>
+                        <option value="cheese">Cheese</option>
+                        <option value="crispy">Crispy</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <select id="topping">
+                        <option value="pepperoni">Pepperoni</option>
+                        <option value="mushroom">Mushroom</option>
+                        <option value="sausage">Sausage</option>
+                        <option value="black-olives">Black olives</option>
+                    </select>
+                </div>
             </div>
         </div>
-        <div class="order-section">
-            
         </div>
     </body>
 </html>
