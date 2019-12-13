@@ -5,7 +5,7 @@ $(document).ready(function(){
         var pizzaTopping = parseInt($("#topping option:selected").val())
         var pizzaAmount= parseInt($("#amount").val())
         var total = (pizzaSize + pizzaCrust + pizzaTopping) * pizzaAmount
-        var newTotal = total + 200
+        var newTotal = total + 250
         var delivery = ($("#delivery option:selected").val())
         
         if(pizzaSize === 0 || pizzaCrust === 0 || pizzaTopping === 0) {
