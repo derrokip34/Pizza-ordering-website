@@ -8,7 +8,7 @@ $(document).ready(function(){
         var newTotal = total + 200
         var delivery = ($("#delivery option:selected").val())
         
-        if(pizzaSize === 0 || pizzaCrust === 0 || pizzaTopping === 0 || pizzaAmount < 1) {
+        if(pizzaSize === 0 || pizzaCrust === 0 || pizzaTopping === 0) {
             alert("Please choose the size,crust,topping and number of pizzas")
         } else if(delivery === "yes") {
             var deliveryAdress = prompt("Please enter delivery address in this order(street name-town name-county name")
