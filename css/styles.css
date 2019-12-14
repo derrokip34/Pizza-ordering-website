@@ -5,9 +5,9 @@
 .offered {
     text-align: center;
 }
-h2, h1 {
+h1 {
     font-style: italic;
-    color: red;
+    color: black;
 }
 body {
     margin-top: 20px;
@@ -27,4 +27,7 @@ img {
 #delivery {
     width: 20%;
     text-align: center;
+}
+body {
+    background-image: url('../images/pizza1.jpg');
 }
