@@ -4,10 +4,14 @@
 }
 .offered {
     text-align: center;
+    color: white;
 }
 h1 {
     font-style: italic;
     color: black;
+}
+h2 {
+    color: white;
 }
 body {
     margin-top: 20px;
