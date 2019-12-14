@@ -42,4 +42,4 @@ To contact me, reach me on my [Email](derrickip34@gmail.com)
 
 ## Copyright and License info
 
-[MIT license]()
+[MIT license](https://github.com/derrokip34/Pizza-ordering-website/blob/master/license.md)
