@@ -26,7 +26,7 @@ This pizza ordering website allows users to choose size, toppings, crust and num
 - CSS
 - Markdown
 - Javascript
--Jquery
+- Jquery
 
 ## BDD
 #### Input required
