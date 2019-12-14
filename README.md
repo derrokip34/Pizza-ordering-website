@@ -15,7 +15,7 @@ This pizza ordering website allows users to choose size, toppings, crust and num
 - Terminal
 
 #### Clone the repository by typing the following command in the terminal
-`git clone git clone https://github.com/derrokip34/Pizza-ordering-website`
+`git clone https://github.com/derrokip34/Pizza-ordering-website`
 
 #### Open index.html in the browser
 
