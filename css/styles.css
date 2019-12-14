@@ -27,6 +27,7 @@ img {
 }
 .order-section {
     text-align: center;
+    background-image: url('../images/pizzaorder.jpg');
 }
 #delivery {
     width: 20%;
