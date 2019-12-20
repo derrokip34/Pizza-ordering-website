@@ -43,3 +43,8 @@ body {
     height: auto;
     background-color: white;
 }
+label {
+    color: black;
+    width: auto;
+    background-color: wheat;
+}
