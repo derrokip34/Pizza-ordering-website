@@ -1,3 +1,8 @@
+function Toppings(topping, price) {
+    this.topping = topping
+    this.price = price
+}
+
 $(document).ready(function(){
     $("#confirm").click(function(){
         var pizzaSize = parseInt($("#size option:selected").val())
