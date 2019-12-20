@@ -15,11 +15,8 @@ $(document).ready(function(){
         
         if(pizzaSize === 0 || pizzaCrust === 0 || pizzaTopping === 0) {
             alert("Please choose the size,crust,topping and number of pizzas")
-        } else if(delivery === "yes") {
-            var deliveryAdress = prompt("Please enter delivery address in this order(street name-town name-county name")
-            alert("You have ordered " + pizzaAmount + " pizza(s). Total price is " + newTotal + ". Your pizza will be delivered to " + deliveryAdress)
         } else {
-            alert("You have ordered " + pizzaAmount + " pizza(s). Total price is " + total)
+            $("#order").append("<li>Your order: " + pizzaAmount + "pizza(s)" + "Total Price: " + total + "</li>")
         }
     })
 })

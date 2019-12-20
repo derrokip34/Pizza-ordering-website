@@ -37,3 +37,9 @@ img {
 body {
     background-image: url('../images/pizza1.jpg');
 }
+#order {
+    color: black;
+    width: auto;
+    height: auto;
+    background-color: white;
+}
